@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class AreaCircle 
+{
+	public static void main(String[] args) 
+	{
+		double radius;
+		 // input radius of circle
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the radius of circle : ");
+		radius=sc.nextDouble();
+		// Circle Area is pie * radius square
+		double area=3.14*radius*radius;
+		System.out.println("Area of Circle = "+area);
+	}
+}

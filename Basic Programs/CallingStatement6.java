@@ -1,0 +1,13 @@
+class CallingStatement6 
+{
+	public static void main(String[] args) 
+	{
+		int j=m1();
+		System.out.println(j);
+	}
+	public static int m1()
+	{
+		int i=100;
+		return i;
+}
+}

@@ -1,0 +1,9 @@
+class Addition 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Started");
+		add();
+		System.out.println("Main Ended");
+	}
+}
