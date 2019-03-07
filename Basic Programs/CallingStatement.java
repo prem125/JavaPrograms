@@ -1,0 +1,17 @@
+class CallingStatement 
+{
+		public static int m1()
+		{
+		int res=20+30;
+		System.out.println(res);
+		return 30;
+		}
+		public static void main(String args[])
+	{
+			int op=m1();
+			System.out.println(op);
+			System.out.println(m1());
+			int res=m1()+m1();
+			System.out.println(res);
+			}
+}
